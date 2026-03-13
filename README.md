@@ -14,35 +14,14 @@ It works with any stack — PHP, TypeScript, Python, Swift, Go, Rust, or anythin
 
 ## What It Generates
 
-```
-your-project/
-├── .github/
-│   ├── instructions/
-│   │   ├── copilot.instructions.md          # Project coding guidelines & doc routing
-│   │   ├── task.instructions.md             # Blocking gate-checked task lifecycle
-│   │   ├── agent-observations.instructions.md # Mandatory observation disclosure
-│   │   ├── browsetools.instructions.md      # Browser verification protocol
-│   │   └── ratelimitting.instructions.md    # Rate limit prevention rules
-│   └── prompts/
-│       ├── document-task.prompt.md          # Log completed work
-│       ├── plan-task.prompt.md              # Create implementation plans
-│       ├── execute-plan.prompt.md           # Execute a planned task
-│       └── report.prompt.md                # Generate shareable reports
-└── docs/
-    ├── logic/                               # Feature docs (one per domain)
-    ├── task/                                # Task tracking & daily logs
-    │   ├── todo.md
-    │   ├── lessons.md
-    │   ├── logs/                            # Daily task logs (YYYY-MM-DD.md)
-    │   └── planning/                        # Multi-step task plans
-    ├── reports/                             # Generated reports
-    ├── server/                              # Server & deployment docs
-    └── agent-observations/                  # Anomalies, recommendations, critical issues
-        ├── critical.md
-        ├── recommendations.md
-        ├── anomalies.md
-        └── closed/                          # Resolved observation archive
-```
+![Generated Rules Tree](assets/example-tree.png)
+
+## Example
+
+The [`examples/`](examples/) directory contains a complete real-world example:
+
+- **Input:** [`examples/glitch-payment-gateway/project-description.md`](examples/glitch-payment-gateway/project-description.md) — A WooCommerce payment gateway plugin for a South African payment provider.
+- **Output:** [`examples/glitch-payment-gateway/generated/`](examples/glitch-payment-gateway/generated/) — The full generated rules system, including 5 instruction files, 4 prompts, 7 feature docs, task tracking, and observation logs.
 
 ## Quick Start
 
@@ -67,15 +46,6 @@ The generator runs a 13-phase pipeline:
 5. **Task tracking** — Creates the full task management structure: `todo.md`, `lessons.md`, daily log directories, and planning directories.
 6. **Observation logs** — Creates the agent observation system with critical, recommendations, and anomalies logs.
 7. **Verification** — Validates all artifacts against a comprehensive checklist.
-
-## Example
-
-![Example Output Structure](assets/example-tree.svg)
-
-The [`examples/`](examples/) directory contains a complete real-world example:
-
-- **Input:** [`examples/glitch-payment-gateway/project-description.md`](examples/glitch-payment-gateway/project-description.md) — A WooCommerce payment gateway plugin for a South African payment provider.
-- **Output:** [`examples/glitch-payment-gateway/generated/`](examples/glitch-payment-gateway/generated/) — The full generated rules system, including 5 instruction files, 4 prompts, 7 feature docs, task tracking, and observation logs.
 
 ## Key Features
 
