@@ -1,5 +1,9 @@
 # Project Rules Generator
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-111827.svg)](LICENSE)
+![GitHub Copilot](https://img.shields.io/badge/GitHub%20Copilot-Agent%20Mode-181717?logo=github)
+![Stack Agnostic](https://img.shields.io/badge/Stack-Agnostic-0f766e.svg)
+
 ![Project Rules Generator](assets/repo-cover.png)
 
 **Generate a complete project rules system for Copilot and AI coding agents — instructions, prompts, task tracking, documentation scaffolding, reports, and observation logs — from a single prompt.**
