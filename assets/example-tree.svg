@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="980" viewBox="0 0 680 980">
+  <defs>
+    <style>
+      .tree { font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', 'Menlo', monospace; font-size: 14px; white-space: pre; }
+      .path { fill: #6e7681; }
+      .dir  { fill: #79c0ff; }
+      .file { fill: #c9d1d9; }
+    </style>
+  </defs>
+  <rect width="680" height="980" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+  <g class="tree" transform="translate(24, 32)">
+    <text xml:space="preserve" y="0"><tspan class="dir">glitch-payment-gateway/</tspan></text>
+    <text xml:space="preserve" y="24"><tspan class="path">├── </tspan><tspan class="file">project-description.md</tspan></text>
+    <text xml:space="preserve" y="48"><tspan class="path">└── </tspan><tspan class="dir">generated/</tspan></text>
+    <text xml:space="preserve" y="72"><tspan class="path">    ├── </tspan><tspan class="dir">.github/</tspan></text>
+    <text xml:space="preserve" y="96"><tspan class="path">    │   ├── </tspan><tspan class="dir">instructions/</tspan></text>
+    <text xml:space="preserve" y="120"><tspan class="path">    │   │   ├── </tspan><tspan class="file">agent-observations.instructions.md</tspan></text>
+    <text xml:space="preserve" y="144"><tspan class="path">    │   │   ├── </tspan><tspan class="file">browsetools.instructions.md</tspan></text>
+    <text xml:space="preserve" y="168"><tspan class="path">    │   │   ├── </tspan><tspan class="file">copilot.instructions.md</tspan></text>
+    <text xml:space="preserve" y="192"><tspan class="path">    │   │   ├── </tspan><tspan class="file">ratelimitting.instructions.md</tspan></text>
+    <text xml:space="preserve" y="216"><tspan class="path">    │   │   └── </tspan><tspan class="file">task.instructions.md</tspan></text>
+    <text xml:space="preserve" y="240"><tspan class="path">    │   └── </tspan><tspan class="dir">prompts/</tspan></text>
+    <text xml:space="preserve" y="264"><tspan class="path">    │       ├── </tspan><tspan class="file">document-task.prompt.md</tspan></text>
+    <text xml:space="preserve" y="288"><tspan class="path">    │       ├── </tspan><tspan class="file">execute-plan.prompt.md</tspan></text>
+    <text xml:space="preserve" y="312"><tspan class="path">    │       ├── </tspan><tspan class="file">plan-task.prompt.md</tspan></text>
+    <text xml:space="preserve" y="336"><tspan class="path">    │       └── </tspan><tspan class="file">report.prompt.md</tspan></text>
+    <text xml:space="preserve" y="360"><tspan class="path">    └── </tspan><tspan class="dir">docs/</tspan></text>
+    <text xml:space="preserve" y="384"><tspan class="path">        ├── </tspan><tspan class="dir">agent-observations/</tspan></text>
+    <text xml:space="preserve" y="408"><tspan class="path">        │   ├── </tspan><tspan class="file">anomalies.md</tspan></text>
+    <text xml:space="preserve" y="432"><tspan class="path">        │   ├── </tspan><tspan class="file">critical.md</tspan></text>
+    <text xml:space="preserve" y="456"><tspan class="path">        │   ├── </tspan><tspan class="file">recommendations.md</tspan></text>
+    <text xml:space="preserve" y="480"><tspan class="path">        │   └── </tspan><tspan class="dir">closed/</tspan></text>
+    <text xml:space="preserve" y="504"><tspan class="path">        │       ├── </tspan><tspan class="file">anomalies.md</tspan></text>
+    <text xml:space="preserve" y="528"><tspan class="path">        │       ├── </tspan><tspan class="file">critical.md</tspan></text>
+    <text xml:space="preserve" y="552"><tspan class="path">        │       └── </tspan><tspan class="file">recommendations.md</tspan></text>
+    <text xml:space="preserve" y="576"><tspan class="path">        ├── </tspan><tspan class="dir">logic/</tspan></text>
+    <text xml:space="preserve" y="600"><tspan class="path">        │   ├── </tspan><tspan class="file">admin-settings.md</tspan></text>
+    <text xml:space="preserve" y="624"><tspan class="path">        │   ├── </tspan><tspan class="file">api-integration.md</tspan></text>
+    <text xml:space="preserve" y="648"><tspan class="path">        │   ├── </tspan><tspan class="file">gateway.md</tspan></text>
+    <text xml:space="preserve" y="672"><tspan class="path">        │   ├── </tspan><tspan class="file">payment-methods.md</tspan></text>
+    <text xml:space="preserve" y="696"><tspan class="path">        │   ├── </tspan><tspan class="file">security.md</tspan></text>
+    <text xml:space="preserve" y="720"><tspan class="path">        │   ├── </tspan><tspan class="file">transactions.md</tspan></text>
+    <text xml:space="preserve" y="744"><tspan class="path">        │   └── </tspan><tspan class="file">webhooks.md</tspan></text>
+    <text xml:space="preserve" y="768"><tspan class="path">        ├── </tspan><tspan class="dir">reports/</tspan></text>
+    <text xml:space="preserve" y="792"><tspan class="path">        ├── </tspan><tspan class="dir">server/</tspan></text>
+    <text xml:space="preserve" y="816"><tspan class="path">        └── </tspan><tspan class="dir">task/</tspan></text>
+    <text xml:space="preserve" y="840"><tspan class="path">            ├── </tspan><tspan class="file">todo.md</tspan></text>
+    <text xml:space="preserve" y="864"><tspan class="path">            ├── </tspan><tspan class="file">lessons.md</tspan></text>
+    <text xml:space="preserve" y="888"><tspan class="path">            ├── </tspan><tspan class="dir">logs/</tspan></text>
+    <text xml:space="preserve" y="912"><tspan class="path">            │   └── </tspan><tspan class="file">2026-03-12.md</tspan></text>
+    <text xml:space="preserve" y="936"><tspan class="path">            └── </tspan><tspan class="dir">planning/</tspan></text>
+  </g>
+</svg>
